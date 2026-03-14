@@ -1,0 +1,91 @@
+#arithmetic operations
+
+a=2
+b=3
+print(a+b)
+print(a-b)
+print(a/b)
+print(a**b)
+print(a*b)
+
+
+#relational operations
+p = 20
+q = 80
+
+print(p==q)
+print(p!=q)
+print(p>=q)
+print(p<=q)
+
+#assignment operators
+
+num=7
+num%=10
+print(num)
+
+#logical operators
+#and,or,not
+
+r = 80
+s = 100
+
+print(not(r>s))
+print(not True)
+
+print((s>r) and (r==s))
+
+print((s>r) or (r==s))
+
+
+#typeconversion
+#automaticconversion
+a=2
+b=4.21
+print(type(a))
+print(type(b))
+
+
+#castingconversion
+#manualconversion
+A=float(9)
+B=int(9)
+
+print("sum", A+B)
+print(type(A))
+print(type(B))
+
+
+#input
+#Grade = int(input("enter your marks:"))
+#print(type(Grade))
+
+
+#Name= input("enter your name-")
+#Age= input("enter your age-")
+#Marks= input("enter your marks-")
+
+#print("welcome", Name)
+#print("welcome", Age)
+#print("welcome",Marks)
+
+ #program to input 2 numbers and  print sum
+
+#A= int(input("enter no.1-"))
+#B= int(input("enter no.2-"))
+#print("sum is", A + B)
+
+#program to input  side  of the square
+#side= int(input("please enter the side of square:"))
+#print("the peri is", 4*side)
+
+#Num1= float(input("num1-"))
+#Num2= float(input("num2-"))
+#print("the average of two numbers are:" , Num1+Num2/2)
+
+P=int(input("enter p"))
+Q=int(input("enter q"))
+print(p>=q)
+
+
+
