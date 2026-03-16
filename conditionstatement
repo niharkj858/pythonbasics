@@ -1,0 +1,137 @@
+#strings
+
+str1="this is niharika jain"
+print(str1)
+
+#escape sequence character
+str2="This is niharika\nThis is my day 2 of learning python."
+str3="This is niharika\tThis is my day 2 of learning python."
+
+print(str2)
+print(str3)
+
+#basic operations
+str4="Hello"
+str5="world"
+print(str4+str5)
+
+print(len(str2))
+
+#indexing
+str6="hi wassup"
+ch = str6[0]
+print(ch)
+
+#slicing
+str7="hi i am rudrma mehta"
+print(str7[0:9])
+print(str7[0:len(str7)])
+
+#negative indexing
+str8="apple"
+print(str8[-4:-1])
+
+str9="i am studying python"
+print(str9.endswith("python"))
+
+str10="heyloo"
+print(str10.capitalize())
+
+str11="hey these wassup gyuz"
+print(str11.replace( "gyuz","everyone" ))
+
+str12="hey these i am a writer"
+print(str12.find("writer"))
+
+str13="i am a poet"
+print(str13.count("am"))
+
+
+#practice1
+Name= input("write your name")
+print(len(Name))
+
+#practice2
+str15="$niharika$jain$is$a$writer"
+print(str15.count("$"))
+
+#CONDITIONAL STATEMENTS
+#age = 2
+
+#if(age>=18):
+#   print("can vote")
+#  print("can drink")
+
+
+
+#eg2
+
+light = "blue"
+
+if(light =="red"):
+    print("stop")
+
+elif(light=="green"):
+    print("go")
+
+elif(light=="yellow"):
+    print("wait")
+
+    print("end of code")
+
+
+
+#eg3
+
+num=10
+
+if(num>5):
+    print("greater than 5")
+
+if(num>0):
+    print("greater than 0")
+
+#eg4
+
+num=10
+
+if(num>5):
+    print("greater than 5")
+
+elif(num>0):
+    print("greater than 0")
+
+
+
+#eg5
+#marks = int(input("enter the marks of student:"))
+
+if(marks>=90 and marks<100):
+    print("A")
+elif(marks>=80 and marks<90):
+    print("B")
+elif(marks>=50 and marks<80):
+    print("C")
+elif(marks>=40 and marks<50):
+    print("D")
+else:
+    print("fail")
+
+
+#practice1
+
+Puma= int(input("Enter a number:"))
+
+if(Puma%2==0):
+    print("even")
+else:
+    print("odd")
+
+
+
+
+
+
+
+
+
